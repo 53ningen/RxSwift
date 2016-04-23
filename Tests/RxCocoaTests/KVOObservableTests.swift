@@ -128,9 +128,6 @@ class HasStrongProperty : NSObject {
 class HasWeakProperty : NSObject {
     dynamic weak var property: NSObject? = nil
     
-    override init() {
-        super.init()
-    }
 }
 
 // test fast observe

@@ -181,10 +181,6 @@ class ReplayBufferBase<Element>
 final class ReplayOne<Element> : ReplayBufferBase<Element> {
     private var _value: Element?
     
-    override init() {
-        super.init()
-    }
-    
     override func trim() {
         
     }
